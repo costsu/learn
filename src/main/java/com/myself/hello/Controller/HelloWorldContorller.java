@@ -11,7 +11,7 @@ public class HelloWorldContorller {
     @GetMapping
     public String helloworld(){
         System.out.println(
-                "helloworld。"
+                "helloworld。."
         );
         return "OK";
     }
